@@ -1,0 +1,123 @@
+body{
+  background-color: aqua; /* change background colour of intro.html*/
+}
+pre{
+  color: rgb(56, 165, 42);
+}
+h3{
+  color: azure;
+}
+#header{
+  background-color: blueviolet;  /*id=header*/
+}
+h1.heading{
+  color: rgb(248, 8, 0);     /*    <h1 class=heading></h>    */
+}
+p.heading{
+  color: rgb(252, 252, 252);  /*    <p class=heading></p>    */
+}
+.heading{
+  background-color: black;      /*    all tag with class= heading    */
+}
+
+ /*   * {
+  color: blue;     * affects all tags in the body    
+}*/
+
+
+h1,h2,p{
+  color: black;   /*    affects all h1,h2 and p tags     */
+}
+
+pre{
+  background-image: url(https://t4.ftcdn.net/jpg/03/00/94/69/360_F_300946931_kSR84OqudEhsmBZH47HU6ud7aZIDMjEx.jpg);
+}
+
+
+
+b{
+  margin-left: 60px;
+}
+p{
+  margin-left: inherit;  /* margin is inherited to <p> tag inside the <b> tag */
+}
+h3{
+  margin-left: inherit;   /* margin is inherited to <h3> tag inside the <b> tag */
+}
+th{
+  border-style: solid;
+}
+td{
+  border-style: hidden hidden dotted dashed;  /* top right bottom left*/
+}
+ol{
+  border-style: dotted solid;   /* top n bottom     left nd right  */
+}
+ul{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: center;
+  border-left: 10px solid red;
+  border-right: 10px solid green;
+  border-top: 10px solid yellow;
+  border-bottom: 10px solid black;
+  border-radius: 25px;
+ }
+ li{
+  text-transform: capitalize;
+ }
+ dt{
+  text-transform: uppercase;
+ }
+ dd{
+  letter-spacing: 5px;
+ }
+
+ table,th,td{
+  border: 2px solid;
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+
+ }
+ th{
+  height: 50px;
+  text-transform: uppercase;
+ }
+
+ tr:hover{
+  background-color: rgb(186, 205, 221);
+ }
+
+
+
+
+
+.dropdownbutton{
+  background-color: brown;
+  color: aliceblue;
+  cursor: pointer;
+  border: none;
+}
+.dropdownmenu{
+  display: none;
+  position: absolute;
+  background-color: rgb(161, 98, 98);
+  min-width: 150px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdownmenu a{
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.dropdownmenu a:hover{
+  background-color: aliceblue;
+}
+.dropdown:hover .dropdownmenu{
+  display: block;
+}

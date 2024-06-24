@@ -20,7 +20,7 @@
         margin-top: 50px;
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 20px;
         row-gap: 60px;
       }
@@ -29,12 +29,30 @@
         height: 200px;
         margin: auto;
         display: block;
+        border-radius: 15px;
       }
       .project-title{
         text-decoration: underline;
         text-align: center;
         color: rgb(0, 110, 255);
       }
+      @media (max-width: 750px) {
+  .projects_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .projects_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .projects_grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
     </style>
   </head>
   <body>
@@ -48,19 +66,19 @@
       </div>
       <div class="sub-grid">
         <a href="simplegame/index.html" target="_blank"><img class="thumbnail" src="thumbnails/Game.avif"></a> 
-        <div class="project-title"><a href="simplegame/index.html" target="_blank" >Youtube Clone</a></div>
+        <div class="project-title"><a href="simplegame/index.html" target="_blank" >RPG Game</a></div>
       </div>
       <div class="sub-grid">
-        <img class="thumbnail" src="thumbnails/maxresdefault.jpg">
-        <div class="project-title"><a href="https://mithulajprojects.xyz" target="_blank" >Youtube Clone</a></div>
+        <img class="thumbnail" src="thumbnails/comingsoon.webp">
+        <div class="project-title"><a href="" target="_blank" >Project 3</a></div>
       </div>
       <div class="sub-grid">
-        <img class="thumbnail" src="thumbnails/maxresdefault.jpg">
-        <div class="project-title"><a href="https://mithulajprojects.xyz" target="_blank" >Youtube Clone</a></div>
+        <img class="thumbnail" src="thumbnails/comingsoon.webp">
+        <div class="project-title"><a href="" target="_blank" >Project 5</a></div>
       </div>
       <div class="sub-grid">
-        <img class="thumbnail" src="thumbnails/maxresdefault.jpg">
-        <div class="project-title"><a href="https://mithulajprojects.xyz" target="_blank" >Youtube Clone</a></div>
+        <img class="thumbnail" src="thumbnails/comingsoon.webp">
+        <div class="project-title"><a href="" target="_blank" >Project 5</a></div>
       </div>
     </div>
   </body>
